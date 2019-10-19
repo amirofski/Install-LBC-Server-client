@@ -1,0 +1,28 @@
+
+***Install LBC Server client package
+-------------------------------------
+
+sudo apt-get update               
+sudo apt-get upgrade               
+sudo apt-get update && sudo apt-get -y upgrade               
+sudo apt-get install -y linux-image-extra-`uname -r`               
+sudo apt install perl bzip2 xdelta3 libgmp-dev libssl-dev gcc make               
+sudo apt-get install gcc make tmux libssl-dev xdelta3 nvidia-384 nvidia-cuda-toolkit               
+sudo cpan install OpenCL               
+sudo cpan force install JSON               
+sudo cpan force install LWP               
+sudo cpan force install Parallel::ForkManager               
+sudo cpan force install Net::SSLeay               
+sudo cpan force install LWP::Protocol::https               
+sudo cpan force install Parallel::ForkManager                
+sudo cpan force install Term::ReadKey               
+sudo apt-get install libnet-ssleay-perl               
+sudo apt-get install libcrypt-ssleay-perl               
+sudo apt-get install LWP::Protocol::https               
+sudo apt-get install Parallel::ForkManager                
+sudo apt-get install Term::ReadKey               
+sudo apt install ocl-icd-opencl-dev               
+sudo apt-get dist-upgrade -y               
+sudo reboot               
+sudo ./LBC -h               
+sudo ./LBC -x
